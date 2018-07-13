@@ -1,0 +1,501 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/ruixj/work/test/avro/target/scala-2.12/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.12.2
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+6 items
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> /home/ruixj/work/test/avro/target/scala-2.12/classes/com/example/AvroProcessor$.class
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> /home/ruixj/work/test/avro/target/scala-2.12/classes/com/example/AvroProcessor.class
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> /home/ruixj/work/test/avro/target/scala-2.12/classes/com/example/Evaluator$.class
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> /home/ruixj/work/test/avro/target/scala-2.12/classes/com/example/Evaluator.class
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> /home/ruixj/work/test/avro/target/scala-2.12/classes/com/example/SchemaTree$.class
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> /home/ruixj/work/test/avro/target/scala-2.12/classes/com/example/SchemaTree.class
+binary dependencies:
+17 items
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> /home/ruixj/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> /home/ruixj/.ivy2/cache/org.apache.avro/avro/bundles/avro-1.7.6-cdh5.5.2.jar
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> /home/ruixj/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-11.b12.el7.x86_64/jre/lib/rt.jar
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> /home/ruixj/.ivy2/cache/org.apache.avro/avro/bundles/avro-1.7.6-cdh5.5.2.jar
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> /home/ruixj/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.8.8.jar
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> /home/ruixj/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.8.8.jar
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> /home/ruixj/.ivy2/cache/org.json4s/json4s-ast_2.12/jars/json4s-ast_2.12-3.2.11.jar
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> /home/ruixj/.ivy2/cache/org.json4s/json4s-core_2.12/jars/json4s-core_2.12-3.2.11.jar
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> /home/ruixj/.ivy2/cache/org.json4s/json4s-jackson_2.12/jars/json4s-jackson_2.12-3.2.11.jar
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> /home/ruixj/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> /home/ruixj/work/test/avro/target/scala-2.12/classes/com/example/util/AvroUtil.class
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-11.b12.el7.x86_64/jre/lib/rt.jar
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> /home/ruixj/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> /home/ruixj/.ivy2/cache/org.apache.avro/avro/bundles/avro-1.7.6-cdh5.5.2.jar
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> /home/ruixj/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-11.b12.el7.x86_64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+2 items
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> /home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> /home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+6 items
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> com.example.AvroProcessor
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> com.example.AvroProcessor$
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> com.example.Evaluator
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> com.example.Evaluator$
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> com.example.SchemaTree
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> com.example.SchemaTree$
+used names:
+350 items
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> +
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> +=
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> ->
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> <init>
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> A
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> Any
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> AnyRef
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> ArrowAssoc
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> AvroProcessor
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> B
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> Boolean
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> Function1
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> HashMap
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> K
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> LogManager
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> Logger
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> Map
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> Nothing
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> Object
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> Predef
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> Schema
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> SchemaTree
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> String
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> T0
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> Tuple2
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> U
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> Unit
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> V
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> _1
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> _2
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> apache
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> asInstanceOf
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> avro
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> collection
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> com
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> combinedKey
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> empty
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> example
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> fieldType
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> flatFieldType
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> foreach
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> getLogger
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> isEmpty
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> isInstanceOf
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> key
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> kv
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> log4j
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> mutable
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> org
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> parent
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> result
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> scala
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> schema
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> toExtractedType
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> value
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> !=
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> &&
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> +
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> -
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> :+
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> ::
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> <byname>
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> <init>
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> <refinement>
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> <repeated>
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> ==
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> A
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> A1
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Any
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> AnyRef
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Array
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> ArrayBuffer
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> ArrayOps
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> AsJava
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> AsScala
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> AvroProcessor
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> AvroUtil
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> B
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Boolean
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Buffer
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> CanBuildFrom
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Char
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Coll
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Collection
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Decorators
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Evaluator
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Exception
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Field
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Formats
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Function1
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Function2
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> GenIterable
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> GenericData
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> GenericEnumSymbol
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> GenericFixed
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> GenericRecord
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Inclusive
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> IndexedRecord
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> IndexedSeq
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Int
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Iterable
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Iterator
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> JValue
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> JavaConverters
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> JsonAST
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> JsonInput
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> JsonMethods
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> JsonNode
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> List
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Map
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> MatchError
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> MergeDep
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> MergeSyntax
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Nil
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Nothing
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> NullNode
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Object
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Option
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Order
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Predef
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> R
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Range
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Record
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> RichInt
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Schema
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Seq
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> String
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> StringContext
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> StringOps
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> T
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> T0
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> T1
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> T2
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> That
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Tuple2
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Type
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> U
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Unit
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> Vec
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> _
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> _1
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> _2
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> a
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> apache
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> apply
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> arr
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> asInstanceOf
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> asJava
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> asScala
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> asScalaBufferConverter
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> asScalaIteratorConverter
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> augmentRecord
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> augmentSchema
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> augmentString
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> avro
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> avroType
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> canBuildFrom
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> codehaus
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> collection
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> com
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> create
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> createArray
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> createMap
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> createRecord
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> createUnion
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> defaultValue
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> doc
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> endsWith
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> example
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> extractFieldType
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> f
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> field
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> fieldName
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> fieldPath
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> fieldSchema
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> fieldStack
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> fieldType
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> fieldTypeMap
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> fields
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> foldLeft
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> foreach
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> fs
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> generic
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> get
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> getElementType
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> getEmptySchema
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> getField
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> getFields
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> getFullName
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> getInstance
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> getOrElse
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> getSchema
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> getType
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> getTypes
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> head
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> headOption
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> immutable
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> intWrapper
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> isInstanceOf
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> isList
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> isMap
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> iterator
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> j2m
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> jackson
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> jjj
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> json
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> json4s
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> jsonBegin
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> jsonEnd
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> last
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> length
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> lotto1
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> lotto2
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> map
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> merge
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> mergedLotto
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> mkString
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> mutable
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> name
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> nameSpace
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> ne
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> newSchemas
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> nextSchema
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> node
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> nr
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> nullSchema
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> nulls
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> ofRef
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> order
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> org
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> otherSchema
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> others
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> package
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> parse
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> partition
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> path
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> pretty
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> print
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> println
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> put
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> r
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> record
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> recordSchema
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> records
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> refArrayOps
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> render
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> rs
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> s
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> scala
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> schema
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> schemajson
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> schemas
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> sel
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> seqAsJavaListConverter
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> setFields
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> size
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> split
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> stack
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> string2JsonInput
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> stripMargin
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> substring
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> t
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> targetSchema
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> to
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> toList
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> toSchema
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> toString
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> ty
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> unchecked
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> util
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> v
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> value
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> vs
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> x$6
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> x$7
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> zip
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> !=
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> +
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> +=
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> ->
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> <init>
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> ==
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> A
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> Any
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> AnyRef
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> ArrayBuffer
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> ArrowAssoc
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> B
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> Boolean
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> Breaks
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> Field
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> Function1
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> HashMap
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> Int
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> K
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> List
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> LogManager
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> Logger
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> Map
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> Nothing
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> Object
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> Predef
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> Range
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> RichInt
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> Schema
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> SchemaTree
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> String
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> T0
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> Tuple2
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> Type
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> U
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> Unit
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> V
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> apache
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> asInstanceOf
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> avro
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> collection
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> com
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> control
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> empty
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> example
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> field
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> fields
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> foreach
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> get
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> getElementType
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> getFields
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> getLogger
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> getType
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> getTypes
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> getValueType
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> index
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> intWrapper
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> isInstanceOf
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> log4j
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> m
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> mutable
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> name
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> org
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> ret
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> s
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> scala
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> schema
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> size
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> ss
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> t
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> toString
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> toType
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> until
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> util
+product stamps:
+6 items
+/home/ruixj/work/test/avro/target/scala-2.12/classes/com/example/AvroProcessor$.class -> lastModified(1520574030000)
+/home/ruixj/work/test/avro/target/scala-2.12/classes/com/example/AvroProcessor.class -> lastModified(1520574030000)
+/home/ruixj/work/test/avro/target/scala-2.12/classes/com/example/Evaluator$.class -> lastModified(1520837752000)
+/home/ruixj/work/test/avro/target/scala-2.12/classes/com/example/Evaluator.class -> lastModified(1520837752000)
+/home/ruixj/work/test/avro/target/scala-2.12/classes/com/example/SchemaTree$.class -> lastModified(1520574030000)
+/home/ruixj/work/test/avro/target/scala-2.12/classes/com/example/SchemaTree.class -> lastModified(1520574030000)
+source stamps:
+4 items
+/home/ruixj/work/test/avro/src/main/java/com/example/util/AvroUtil.java -> hash(29324cf391992966d1b6fd733e0a9b9eef23ab3a)
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> hash(c1b7217d43d55020b6f5481a096d351a915c7cd8)
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> hash(625739b398ef667230fe5008797f7f30998c32ac)
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> hash(4eba2c0020134d56923838f4fc264b0f337463a5)
+binary stamps:
+10 items
+/home/ruixj/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> lastModified(1338025419000)
+/home/ruixj/.ivy2/cache/org.apache.avro/avro/bundles/avro-1.7.6-cdh5.5.2.jar -> lastModified(1453767775000)
+/home/ruixj/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.8.8.jar -> lastModified(1327109052000)
+/home/ruixj/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.8.8.jar -> lastModified(1327109085000)
+/home/ruixj/.ivy2/cache/org.json4s/json4s-ast_2.12/jars/json4s-ast_2.12-3.2.11.jar -> lastModified(1501349299000)
+/home/ruixj/.ivy2/cache/org.json4s/json4s-core_2.12/jars/json4s-core_2.12-3.2.11.jar -> lastModified(1501349294000)
+/home/ruixj/.ivy2/cache/org.json4s/json4s-jackson_2.12/jars/json4s-jackson_2.12-3.2.11.jar -> lastModified(1501349286000)
+/home/ruixj/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> lastModified(1492071552000)
+/home/ruixj/work/test/avro/target/scala-2.12/classes/com/example/util/AvroUtil.class -> lastModified(1520574037000)
+/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-11.b12.el7.x86_64/jre/lib/rt.jar -> lastModified(1502085109000)
+class names:
+10 items
+/home/ruixj/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> org.apache.log4j.LogManager
+/home/ruixj/.ivy2/cache/org.apache.avro/avro/bundles/avro-1.7.6-cdh5.5.2.jar -> org.apache.avro.generic.GenericFixed
+/home/ruixj/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.8.8.jar -> org.codehaus.jackson.JsonNode
+/home/ruixj/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.8.8.jar -> org.codehaus.jackson.node.NullNode
+/home/ruixj/.ivy2/cache/org.json4s/json4s-ast_2.12/jars/json4s-ast_2.12-3.2.11.jar -> org.json4s.JsonAST$
+/home/ruixj/.ivy2/cache/org.json4s/json4s-core_2.12/jars/json4s-core_2.12-3.2.11.jar -> org.json4s.package$
+/home/ruixj/.ivy2/cache/org.json4s/json4s-jackson_2.12/jars/json4s-jackson_2.12-3.2.11.jar -> org.json4s.jackson.JsonMethods$
+/home/ruixj/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> scala.Boolean
+/home/ruixj/work/test/avro/target/scala-2.12/classes/com/example/util/AvroUtil.class -> com.example.util.AvroUtil
+/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.131-11.b12.el7.x86_64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+4 items
+/home/ruixj/work/test/avro/src/main/java/com/example/util/AvroUtil.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwuCFR6gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAAc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFiCUYJEXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3Rvcnl0ABJMamF2YS9sYW5nL1N0cmluZztMAA9zb3VyY2VEaXJlY3RvcnlxAH4AGnhwdAA0L2hvbWUvcnVpeGovd29yay90ZXN0L2F2cm8vdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFCkyTPORmSlm0bb9cz4Km57vI6s6
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw0i/2lQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAXc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwwKk4QHQABm5vdGlmeXNxAH4ADPvmErF0AAR3YWl0c3EAfgAMKbkA0XQADSRhc0luc3RhbmNlT2ZzcQB+AAxbvQdGdAAGbG9nZ2Vyc3EAfgAMSPmM8nQABmVxdWFsc3NxAH4ADAgxzlt0AAxhc0luc3RhbmNlT2ZzcQB+AAxbrAfLdAAMc3luY2hyb25pemVkc3EAfgAMpqmttnQADSRpc0luc3RhbmNlT2ZzcQB+AAzyXkBLdAAJbm90aWZ5QWxsc3EAfgAM7I+ZqXQADGlzSW5zdGFuY2VPZnNxAH4ADIprUoh0ABBleHRyYWN0RmllbGRUeXBlc3EAfgAMtBBr1nQAAj09c3EAfgAMcn25fHQABWNsb25lc3EAfgAMxiHasXQACHRvU3RyaW5nc3EAfgAMqT/9onQAAiE9c3EAfgAM56bZsnQACGdldENsYXNzc3EAfgAMWEBkxHQAAm5lc3EAfgAMGhK8EXQADUF2cm9Qcm9jZXNzb3JzcQB+AAzs7doYdAACZXFzcQB+AAyOykH6dAACIyNzcQB+AAxwHqWidAAIZmluYWxpemVzcQB+AAwj7Yg2dAAIaGFzaENvZGVzcQB+AAwQwj6vdAANZmxhdEZpZWxkVHlwZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABljb20uZXhhbXBsZS5BdnJvUHJvY2Vzc29ydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBdc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEVMAAlpbmhlcml0ZWRxAH4ARUwAB3BhcmVudHNxAH4ARXhxAH4AYnNxAH4AXXVxAH4AQAAAAABzcQB+AF11cQB+AEAAAAAAc3EAfgBddXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBhdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBhc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB6dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB7c3EAfgBudAADQW55c3EAfgByc3EAfgB1dXEAfgB4AAAAAnNxAH4AenQABXNjYWxhcQB+AIF1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAtjb20uZXhhbXBsZXNxAH4Ai3QAA2NvbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYglGCRF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA0L2hvbWUvcnVpeGovd29yay90ZXN0L2F2cm8vdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFMG3IX1D1VAgtvVIGgltNRqRXHzY
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwc68RGAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAbc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwmFc9enQABm5vdGlmeXNxAH4ADEll3jx0AAR3YWl0c3EAfgAMboYsxnQADSRhc0luc3RhbmNlT2ZzcQB+AAzfi5lSdAAGZXF1YWxzc3EAfgAMp7BHUXQACUV2YWx1YXRvcnNxAH4ADP9XRrJ0AAxhc0luc3RhbmNlT2ZzcQB+AAxLL3ohdAANYXVnbWVudFJlY29yZHNxAH4ADEirr/N0AAxzeW5jaHJvbml6ZWRzcQB+AAwVAZKKdAANJGlzSW5zdGFuY2VPZnNxAH4ADNf2MkN0AARtYWluc3EAfgAMIz52wHQACW5vdGlmeUFsbHNxAH4ADFBiFZd0AAxpc0luc3RhbmNlT2ZzcQB+AAzxv4gydAANYXVnbWVudFNjaGVtYXNxAH4ADF36ZG90ABdhdWdtZW50U2NoZW1hJGRlZmF1bHQkNHNxAH4ADN2tvPF0ABFhdWdtZW50QXZyb1JlY29yZHNxAH4ADEpNdtF0ABFhdWdtZW50QXZyb1NjaGVtYXNxAH4ADHn+C8x0AAI9PXNxAH4ADNCxSPV0AAVjbG9uZXNxAH4ADHemiJV0AA5nZXRFbXB0eVNjaGVtYXNxAH4ADCWw/Zp0AAh0b1N0cmluZ3NxAH4ADJSHX0t0AAIhPXNxAH4ADElg04N0AAhnZXRDbGFzc3NxAH4ADI3P19J0AAJuZXNxAH4ADDRhd3R0AAJlcXNxAH4ADIUzinR0AAIjI3NxAH4ADDOI4Gx0AAhmaW5hbGl6ZXNxAH4ADGkkFGJ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AE14cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABVjb20uZXhhbXBsZS5FdmFsdWF0b3J1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGVzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ATUwACWluaGVyaXRlZHEAfgBNTAAHcGFyZW50c3EAfgBNeHEAfgBqc3EAfgBldXEAfgBIAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBOcQB+AFd1cQB+AFgAAAAAc3EAfgBaAHEAfgAhdXEAfgBdAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGl0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBpc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCFdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AcnhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AYHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AeVsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AaXNxAH4AeHQABUFycmF5cQB+AH51cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AeHQABlN0cmluZ3NxAH4AfHNxAH4Af3VxAH4AggAAAANzcQB+AIR0AARqYXZhc3EAfgCEdAAEbGFuZ3EAfgCJc3EAfgBldXEAfgBIAAAAAHNxAH4AZXVxAH4AnQAAAAJzcQB+AHh0AAZPYmplY3RxAH4AoXNxAH4AeHQAA0FueXEAfgB+dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAALY29tLmV4YW1wbGVzcQB+ALJ0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWIY/iHodXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQANC9ob21lL3J1aXhqL3dvcmsvdGVzdC9hdnJvL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRiVzmzmO9mcjD+UAh5f38wmYwyrA==
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwaYeejAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwL9A3s3QABm5vdGlmeXNxAH4ADGuQnid0AAR3YWl0c3EAfgAMwbgWqXQADSRhc0luc3RhbmNlT2ZzcQB+AAxv6jwmdAAGbG9nZ2Vyc3EAfgAMoW5+cXQAD3RvRXh0cmFjdGVkVHlwZXNxAH4ADDNvBGF0AAZlcXVhbHNzcQB+AAxP6P61dAAMYXNJbnN0YW5jZU9mc3EAfgAMeB/7H3QADHN5bmNocm9uaXplZHNxAH4ADEtklaJ0AA0kaXNJbnN0YW5jZU9mc3EAfgAMc/nxAHQACW5vdGlmeUFsbHNxAH4ADDOitq50AAxpc0luc3RhbmNlT2ZzcQB+AAy/n1qtdAAKU2NoZW1hVHJlZXNxAH4ADJGVvxZ0AAI9PXNxAH4ADEWSU6x0AAVjbG9uZXNxAH4ADO29xbx0AAh0b1N0cmluZ3NxAH4ADP+rqp90AAIhPXNxAH4ADAxU+HV0AAhnZXRDbGFzc3NxAH4ADHufUCh0AAJuZXNxAH4ADP8mHMB0AAJlcXNxAH4ADN/glsd0AAIjI3NxAH4ADJVdZWJ0AAhmaW5hbGl6ZXNxAH4ADBu1bHt0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABZjb20uZXhhbXBsZS5TY2hlbWFUcmVldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBbc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AYHNxAH4AW3VxAH4APgAAAABzcQB+AFt1cQB+AD4AAAAAc3EAfgBbdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBfdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBfc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB4dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB5c3EAfgBsdAADQW55c3EAfgBwc3EAfgBzdXEAfgB2AAAAAnNxAH4AeHQABXNjYWxhcQB+AH91cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAtjb20uZXhhbXBsZXNxAH4AiXQAA2NvbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYglGCRF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA0L2hvbWUvcnVpeGovd29yay90ZXN0L2F2cm8vdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFE66LAAgE01Wkjg49PwmSw8zdGOl
+external apis:
+0 items
+source infos:
+4 items
+/home/ruixj/work/test/avro/src/main/java/com/example/util/AvroUtil.java -> 
+AAAAAAAAAAA=
+/home/ruixj/work/test/avro/src/main/scala/com/example/avroprocessor.scala -> 
+AAAAAQAAAQAAABcAVSAgICAgICAgY2FzZSBzOiBtdXRhYmxlLkhhc2hNYXBbU3RyaW5nLCBBbnldID0+IGZsYXRGaWVsZFR5cGUoY29tYmluZWRLZXksIHMsIHJlc3VsdCkBAAADQQEAAAAYAQAYICAgICAgICAgICAgICAgICAgICAgICAgAQBJL2hvbWUvcnVpeGovd29yay90ZXN0L2F2cm8vc3JjL21haW4vc2NhbGEvY29tL2V4YW1wbGUvYXZyb3Byb2Nlc3Nvci5zY2FsYQEASS9ob21lL3J1aXhqL3dvcmsvdGVzdC9hdnJvL3NyYy9tYWluL3NjYWxhL2NvbS9leGFtcGxlL2F2cm9wcm9jZXNzb3Iuc2NhbGEAjW5vbi12YXJpYWJsZSB0eXBlIGFyZ3VtZW50IFN0cmluZyBpbiB0eXBlIHBhdHRlcm4gc2NhbGEuY29sbGVjdGlvbi5tdXRhYmxlLkhhc2hNYXBbU3RyaW5nLEFueV0gaXMgdW5jaGVja2VkIHNpbmNlIGl0IGlzIGVsaW1pbmF0ZWQgYnkgZXJhc3VyZQEAAAAA
+/home/ruixj/work/test/avro/src/main/scala/com/example/main.scala -> 
+AAAAAAAAAAA=
+/home/ruixj/work/test/avro/src/main/scala/com/example/schemaprocessor.scala -> 
+AAAAAQAAAQAAACQAMSAgICAgICAgICBjYXNlIGU6IG11dGFibGUuSGFzaE1hcFtTdHJpbmcsIEFueV0gPT4BAAAEBgEAAAAaAQAaICAgICAgICAgICAgICAgICAgICAgICAgICABAEsvaG9tZS9ydWl4ai93b3JrL3Rlc3QvYXZyby9zcmMvbWFpbi9zY2FsYS9jb20vZXhhbXBsZS9zY2hlbWFwcm9jZXNzb3Iuc2NhbGEBAEsvaG9tZS9ydWl4ai93b3JrL3Rlc3QvYXZyby9zcmMvbWFpbi9zY2FsYS9jb20vZXhhbXBsZS9zY2hlbWFwcm9jZXNzb3Iuc2NhbGEAjW5vbi12YXJpYWJsZSB0eXBlIGFyZ3VtZW50IFN0cmluZyBpbiB0eXBlIHBhdHRlcm4gc2NhbGEuY29sbGVjdGlvbi5tdXRhYmxlLkhhc2hNYXBbU3RyaW5nLEFueV0gaXMgdW5jaGVja2VkIHNpbmNlIGl0IGlzIGVsaW1pbmF0ZWQgYnkgZXJhc3VyZQEAAAAA
+compilations:
+14 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYXSxpad1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL3J1aXhqL0Rvd25sb2Fkcy90ZXN0L2F2cm8vdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYXS/xrd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL3J1aXhqL0Rvd25sb2Fkcy90ZXN0L2F2cm8vdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYXT1cW11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL3J1aXhqL0Rvd25sb2Fkcy90ZXN0L2F2cm8vdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYXT7c0l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL3J1aXhqL0Rvd25sb2Fkcy90ZXN0L2F2cm8vdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYXT8dbV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL3J1aXhqL0Rvd25sb2Fkcy90ZXN0L2F2cm8vdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYXUCKRJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL3J1aXhqL0Rvd25sb2Fkcy90ZXN0L2F2cm8vdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYXUDe8l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL3J1aXhqL0Rvd25sb2Fkcy90ZXN0L2F2cm8vdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYZI3yyJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL3J1aXhqL0Rvd25sb2Fkcy90ZXN0L2F2cm8vdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYZLHeOZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL3J1aXhqL0Rvd25sb2Fkcy90ZXN0L2F2cm8vdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS8=
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYglGCRF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANC9ob21lL3J1aXhqL3dvcmsvdGVzdC9hdnJvL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYhjyzkp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANC9ob21lL3J1aXhqL3dvcmsvdGVzdC9hdnJvL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYhj32OV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANC9ob21lL3J1aXhqL3dvcmsvdGVzdC9hdnJvL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYhj6+8R1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANC9ob21lL3J1aXhqL3dvcmsvdGVzdC9hdnJvL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYhj+Ieh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANC9ob21lL3J1aXhqL3dvcmsvdGVzdC9hdnJvL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv

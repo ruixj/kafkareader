@@ -1,0 +1,8 @@
+target/
+lib/
+project/*/
+*.dot
+*.pdf
+*DS_Store
+*~
+.idea
