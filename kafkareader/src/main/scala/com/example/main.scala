@@ -3,10 +3,11 @@ package com.example;
 import java.util.{Properties, Random}
 
 import com.example.util.AvroUtil
-import com.tr.rts.utility.kafka.message.AvroMessage
+import com.tr.rts.utility.kafka.message.{AvroMessage, AvroMessageEx}
 import com.tr.rts.utility.kafka.message.AvroMessage.MsgOperation
 import org.apache.avro.Schema
 import org.apache.kafka.clients.consumer.{ConsumerRecords, KafkaConsumer}
+
 import scala.collection.JavaConversions._
 import scala.collection.JavaConverters._
 import scala.collection.{Map, immutable, mutable}
@@ -112,9 +113,117 @@ object KafkaReader {
       }
     }
   }
+
+  def consumer0_10_hdc(): Unit =
+  {
+    //val topic = "ecpdevdscat.data.v2.bin.DealsLoansV2"
+
+    val topickm = "ecpproddscat.data.v2.bin.INSTRUMENTKEYMASTER"
+    val topiccl3instrument = "ecpproddscat.data.v2.bin.CL3Instrument"
+    val topickmindex = "ecpproddscat.data.v2.index.INSTRUMENTKEYMASTER_search"
+    var consumerid = "mykafkareader"
+    var groupid = "TestGroupxrui"
+    val brokers = "c258qkxzpmq01.int.thomsonreuters.com:9092,c338vhazpmq02.int.thomsonreuters.com:9092,c030agxzpmq03.int.thomsonreuters.com:9092,c839ymszpmq04.int.thomsonreuters.com:9092,c232qfszpmq05.int.thomsonreuters.com:9092,c060hyhzpmq06.int.thomsonreuters.com:9092"
+    val consumerProps = new Properties()
+    consumerProps.put("bootstrap.servers", brokers)
+    consumerProps.put("enable.auto.commit", "false")
+    consumerProps.put("fetch.message.max.bytes", (1024 * 1024 * 200).toString)
+    consumerProps.put("auto.offset.reset", "latest")
+    consumerProps.put("session.timeout.ms", "30000")
+    consumerProps.put("key.deserializer", "org.apache.kafka.common.serialization.ByteArrayDeserializer")
+    consumerProps.put("value.deserializer", "org.apache.kafka.common.serialization.ByteArrayDeserializer")
+    val groupId = "console-consumer-" + new Random().nextInt(100000)
+    consumerProps.put("group.id", groupid)
+    val consumer: KafkaConsumer[Array[Byte], Array[Byte]] = new KafkaConsumer[Array[Byte], Array[Byte]](consumerProps)
+
+    consumer.subscribe(List(topiccl3instrument).asJava)
+
+    while(true) {
+      val records: ConsumerRecords[Array[Byte], Array[Byte]] = consumer.poll(100)
+      //val r = records.records(topic)
+      var rnumber = 0
+      for ( record <- records.iterator()) {
+        //rnumber += 1
+        //System.out.println(s"current number $rnumber")
+        //val grpMsg = AvroMessage.decode(record.value())
+        val value = record.value()
+        if(AvroMessageEx.hasMagic(value)) {
+          val groupmsg = AvroMessageEx.decode(value)
+          val messages = groupmsg.get.messages
+          //System.out.println(s"current number: $messages")
+          messages.flatMap { avromsg =>
+            val msgtime = groupmsg.get.time
+            val ddomain = groupmsg.get.dataDomain
+            val dtype = avromsg._1
+            System.out.println(s"message size ${avromsg._2.size}")
+            //avromsg._2
+            avromsg._2.map(key => System.out.println(s"msgtime: $msgtime, (domain: $ddomain, type: $dtype), key: $key)"))
+          }
+        } else {
+          //val groupmsg = AvroMessage.decode(value)
+          //groupmsg.get.messages.map { msg => (msg.getMsgType(), processMsg(msg))}
+        }
+
+      }
+    }
+  }
+    //dtc
+   def consumer0_11(): Unit =
+   {
+        //val topic = "ecpdevdscat.data.v2.bin.DealsLoansV2"
+
+        val topickm = "ecpproddscat.data.v2.bin.INSTRUMENTKEYMASTER"
+        val topickmindex = "ecpproddscat.data.v2.index.INSTRUMENTKEYMASTER_search"
+        var consumerid = "mykafkareader"
+        var groupid = "TestGroupxrui"
+        val brokers = "c288wfydpmq01.int.thomsonreuters.com:9092,c782ahcdpmq02.int.thomsonreuters.com:9092,c821qyvdpmq03.int.thomsonreuters.com:9092,c579zvxdpmq04.int.thomsonreuters.com:9092,c955bsbdpmq05.int.thomsonreuters.com:9092,c433dtmdpmq06.int.thomsonreuters.com:9092"
+        val consumerProps = new Properties()
+        consumerProps.put("bootstrap.servers", brokers)
+        consumerProps.put("enable.auto.commit", "false")
+        consumerProps.put("fetch.message.max.bytes", (1024 * 1024 * 200).toString)
+        consumerProps.put("auto.offset.reset", "latest")
+        consumerProps.put("session.timeout.ms", "30000")
+        consumerProps.put("key.deserializer", "org.apache.kafka.common.serialization.ByteArrayDeserializer")
+        consumerProps.put("value.deserializer", "org.apache.kafka.common.serialization.ByteArrayDeserializer")
+        val groupId = "console-consumer-" + new Random().nextInt(100000)
+        consumerProps.put("group.id", groupid)
+        val consumer: KafkaConsumer[Array[Byte], Array[Byte]] = new KafkaConsumer[Array[Byte], Array[Byte]](consumerProps)
+
+        consumer.subscribe(List(topickm).asJava)
+
+        while(true) {
+            val records: ConsumerRecords[Array[Byte], Array[Byte]] = consumer.poll(100)
+            //val r = records.records(topic)
+            var rnumber = 0
+            for ( record <- records.iterator()) {
+                //rnumber += 1
+                //System.out.println(s"current number $rnumber")
+                //val grpMsg = AvroMessage.decode(record.value())
+                val value = record.value()
+                if(AvroMessageEx.hasMagic(value)) {
+                    val groupmsg = AvroMessageEx.decode(value)
+                    val messages = groupmsg.get.messages
+                    //System.out.println(s"current number: $messages")
+                    messages.flatMap { avromsg =>
+                        val msgtime = groupmsg.get.time
+                        val ddomain = groupmsg.get.dataDomain
+                        val dtype = avromsg._1
+                        System.out.println(s"message size ${avromsg._2.size}")
+                        //avromsg._2
+                        avromsg._2.map(key => System.out.println(s"msgtime: $msgtime, (domain: $ddomain, type: $dtype), key: $key)"))
+                    }
+                } else {
+                    //val groupmsg = AvroMessage.decode(value)
+                    //groupmsg.get.messages.map { msg => (msg.getMsgType(), processMsg(msg))}
+                }
+
+            }
+        }
+    }
+
   def main(args: Array[String]):Unit =
   {
-    consumer0_9()
+      consumer0_10_hdc()
   }
 
 }

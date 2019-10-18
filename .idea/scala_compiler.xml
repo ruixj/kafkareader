@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="TestKafka,kafkareader_1226" />
+    <profile name="sbt 2" modules="lib_kafka_reader,scalavro-core,scalavro-util">
+      <option name="deprecationWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+    </profile>
+  </component>
+</project>

@@ -98,3 +98,36 @@ object AvroMessage {
 
   def schemaJson = Schema.prettyPrint
 }
+object AvroMessageEx {
+  private val DE = 0xDE.toByte
+  private val AD = 0xAD.toByte
+  private val BE = 0xBE.toByte
+  private val EF = 0xEF.toByte
+  private val version = 1.toByte
+  private val magic = Array(DE, AD, BE, EF, version)
+
+  def hasMagic(value: Array[Byte]) = {
+    if(value.length >= 5 && value(0) == DE && value(1) == AD && value(2) == BE && value(3) == EF)
+      true
+    else
+      false
+  }
+
+  case class GroupMessage(id: String, dataDomain: String, time: Long, messages: Map[String, Seq[String]])
+
+  val Type = AvroType[GroupMessage]
+  val Schema = Type.schema
+
+  def encode(ms: GroupMessage): Array[Byte] = {
+    val out = new ByteArrayOutputStream()
+    Type.io.write(ms, out)
+    magic ++ out.toByteArray
+  }
+
+  def decode(bytes: Array[Byte]): Try[GroupMessage] = {
+    val in = new ByteArrayInputStream(bytes.drop(5))
+    Type.io.read(in)
+  }
+
+  def schemaJson = Schema.prettyPrint
+}
